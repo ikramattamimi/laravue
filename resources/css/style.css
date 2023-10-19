@@ -1,0 +1,50 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* VARIABLES */
+:root {
+    --primary-color: #00acee;
+    --success-color: #7cb083;
+    --danger-color: #a57478;
+    --gray-color: #f8f8f8;
+}
+
+/* GLOBAL */
+.bg-blue, .btn-blue {
+    background-color: var(--primary-color);
+}
+
+.text-blue {
+    color: var(--primary-color);
+}
+
+.underline-border {
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.active {
+    color: var(--primary-color) !important;
+}
+
+.bg-custom {
+    background-color: var(--gray-color);
+}
+
+.btn.btn-blue {
+    color: white;
+}
+
+.btn.btn-blue:hover {
+    background-color: grey !important;
+}
+
+/* RESET STYLES */
+* {
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.card {
+    border: none;
+}
+
+
